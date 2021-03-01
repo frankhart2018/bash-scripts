@@ -1,3 +1,5 @@
+sudo echo "Installing..."
+
 echo "Installing git push"
 sudo cp push /usr/local/bin/
 sudo chmod +x /usr/local/bin/push

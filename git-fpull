@@ -4,3 +4,4 @@ then
     git pull
 else
     git pull origin $1
+fi
