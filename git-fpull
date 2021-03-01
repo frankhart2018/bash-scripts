@@ -1,0 +1,6 @@
+git fetch
+if [ -z "$1" ]
+then
+    git pull
+else
+    git pull origin $1
