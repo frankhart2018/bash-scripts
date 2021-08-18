@@ -1,13 +1,7 @@
-sudo echo "Installing..."
-
-echo "Installing git push"
-sudo cp push /usr/local/bin/
-sudo chmod +x /usr/local/bin/push
-
-echo "Installing git fetch pull"
-sudo cp git-fpull /usr/local/bin/
-sudo chmod +x /usr/local/bin/git-fpull
-
-echo "Installing ptar"
-sudo cp ptar /usr/local/bin/
-sudo chmod +x /usr/local/bin/ptar
+if [ $1 == "linux" ]; then
+    ./install-linux.sh
+elif [ $1 == "mac" ]; then
+    ./install-mac.sh
+else
+    echo "Usage: install.sh [linux|mac]"
+fi
