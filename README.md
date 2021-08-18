@@ -1,3 +1,3 @@
 # bash-scripts
 
-Simple bash scripts (mostly for macOS).
+Simple bash scripts for linux and macOS.
