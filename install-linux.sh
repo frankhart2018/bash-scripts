@@ -1,13 +1,18 @@
-sudo echo "Installing in linux..."
+echo 'Installing in linux...'
 
-echo "Installing git push"
-sudo cp common/push /usr/bin/
-sudo chmod +x /usr/bin/push
-
-echo "Installing git fetch pull"
-sudo cp common/git-fpull /usr/bin/
+echo 'Installing git-fpull'
+sudo cp ./common/git-fpull /usr/bin
 sudo chmod +x /usr/bin/git-fpull
 
-echo "Installing ptar"
-sudo cp linux/ptar /usr/bin/
+echo 'Installing loc'
+sudo cp ./common/loc /usr/bin
+sudo chmod +x /usr/bin/loc
+
+echo 'Installing push'
+sudo cp ./common/push /usr/bin
+sudo chmod +x /usr/bin/push
+
+echo 'Installing ptar'
+sudo cp ./linux/ptar /usr/bin
 sudo chmod +x /usr/bin/ptar
+
