@@ -7,7 +7,6 @@ from paths import COMMON_DIR_PATH, LINUX_DIR_PATH, MACOS_DIR_PATH
 from paths import LINUX_INSTALLATION_PATH, MACOS_INSTALLATION_PATH
 from paths import LINUX_SCRIPT_PATH, MACOS_SCRIPT_PATH
 
-
 linux_script = ["echo 'Installing in linux...'\n"]
 macos_script = ["echo 'Installing in macOS...'\n"]
 script_mapper = {"linux": linux_script, "macos": macos_script}
