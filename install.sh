@@ -1,7 +1,7 @@
 if [ $1 == "linux" ]; then
     ./install-linux.sh
-elif [ $1 == "mac" ]; then
+elif [ $1 == "macos" ]; then
     ./install-mac.sh
 else
-    echo "Usage: install.sh [linux|mac]"
+    echo "Usage: install.sh [linux|macos]"
 fi
