@@ -1,5 +1,6 @@
 git init
 git add --all
 git commit -m "Initial commit"
+git branch -M master
 git remote add origin "$1"
 git push -u origin master
