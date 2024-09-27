@@ -28,3 +28,10 @@ echo 'Installing ptar'
 sudo cp ./macos/ptar /usr/local/bin
 sudo chmod +x /usr/local/bin/ptar
 
+echo 'Installing pyclean'
+sudo cp ./common/pyclean /usr/local/bin
+sudo chmod +x /usr/local/bin/pyclean
+
+echo 'Installing rustclean'
+sudo cp ./common/rustclean /usr/local/bin
+sudo chmod +x /usr/local/bin/rustclean

@@ -28,3 +28,10 @@ echo 'Installing ptar'
 sudo cp ./linux/ptar /usr/bin
 sudo chmod +x /usr/bin/ptar
 
+echo 'Installing pyclean'
+sudo cp ./common/pyclean /usr/bin
+sudo chmod +x /usr/bin/pyclean
+
+echo 'Installing rustclean'
+sudo cp ./common/rustclean /usr/bin
+sudo chmod +x /usr/bin/rustclean
