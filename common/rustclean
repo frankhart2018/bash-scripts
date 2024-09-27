@@ -1,0 +1,6 @@
+rustclean () {
+    find . -type d -name target -delete
+}
+
+rustclean
+
