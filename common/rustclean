@@ -1,5 +1,8 @@
 rustclean () {
-    find . -type d -name target -delete
+    dirnames=$(find . -type d -name target)
+    for i in $dirnames; do
+        rm -rf $i
+    done
 }
 
 rustclean
